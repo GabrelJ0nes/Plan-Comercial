@@ -12,6 +12,15 @@ body {
 	position: relative;
 	animation: cambiar 8s ease infinite;
 }
+
+
+
+
+
+
+
+
+
 @keyframes cambiar{
 
 	80%{background-position: 40% 50%;}	
@@ -64,7 +73,7 @@ li {
 #sobre-nosotros { 
 	position: static;
 	margin-right: 20px;
-	margin-left: 1px;
+	margin-left: 20px;
 	padding-left: 30px;
 	text-align: center;
 	margin-bottom: auto;
@@ -85,8 +94,9 @@ a {
 	color: darkgoldenrod;
 }
 #main-container {
-	margin: 50px auto;
-	width: 600px;
+	margin: 30px auto;
+	margin-right: 550px;
+	width: 350px;
 }
 
 table {
@@ -94,14 +104,13 @@ table {
 	background-color: #246355;
 	text-align: center;
 	border-collapse:  collapse;
-	width: 100%;
 }
 th {
 	width: 40px;
 	padding: 30px;
 }
 td {
-	padding: 20px;
+	padding: 30px;
 }
 thead {
 	background-color: #246355;
@@ -110,9 +119,6 @@ thead {
 }
 tr:nth-child(even) {
 	background-color: #ddd
-}
-#tr1 {
-	color: white;
 }
 #tr2 {
 	background-color: white;
@@ -126,5 +132,5 @@ tr:nth-child(even) {
 	padding-bottom: 0.8%;
 }
 footer	{
-	margin-left: 20px;
+	margin: 20px;
 }
