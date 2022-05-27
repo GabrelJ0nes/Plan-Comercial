@@ -41,7 +41,6 @@ nav{
     border-radius: 30px;
     background: #FFFFFF;
     font-family: sans-serif;
-    position: relative;
     opacity: 0.95;
 }
 ul {
@@ -132,5 +131,6 @@ tr:nth-child(even) {
 	padding-bottom: 0.8%;
 }
 footer	{
+	padding-right: 90px;
 	margin: 20px;
 }
